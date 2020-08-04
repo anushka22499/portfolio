@@ -1,0 +1,16 @@
+{% extends "app_site/base.html" %}
+{% load static %}
+{% block body_block %}
+
+
+<div class="container">
+  <div class="jumbotron">
+    <h1>Django Level Five</h1>
+       {% csrf_token %}
+    {% if user.is_authenticated %}
+        <h2>Welcome {{ user.username }}!</h2>
+    {% else %}
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

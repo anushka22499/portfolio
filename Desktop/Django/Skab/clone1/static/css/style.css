@@ -1,0 +1,86 @@
+/* Show it is fixed to the top */
+body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
+  }
+  
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+.navbar-brand{
+  font-size: 35px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-left: 5%;
+}
+li:nth-child(2){
+  margin-left: 30%;
+}
+
+.navbar-nav{
+    margin-left: 70%;
+    font-size: 23px;
+    float: right;
+}
+.container{
+  background-color: orangered;
+}
+.jumbotron{
+  background-color: orangered;
+}
+.lead{
+  color: white;
+}
+.jumbotron h4{
+  font-family: Monaco;
+}
+.btn {
+  box-sizing: border-box;
+  width: 200px;
+  height: 50px;
+  border: 5px solid white;
+  color: white;
+  font-family:Monaco ;
+}
+.icons-sec h3{
+ font-family: optima;
+  text-decoration: underline;
+  text-align: center ;
+}
+.icons-subsec{
+  margin-left: -4%;
+}
+footer{
+  margin-top: 0%;
+  margin-bottom: 0%;
+  background-color: darkgrey;
+  height: 50px;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .icon1 {
+    height: 70%;
+    width: 70%;
+  }
+  .icon2 {
+    height: 70%;
+    width: 70%;
+  }
+  .icon3 {
+    height: 40%;
+    width: 40%;
+  }
+}
